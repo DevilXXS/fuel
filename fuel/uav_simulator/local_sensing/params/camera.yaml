@@ -1,0 +1,14 @@
+cam_width:  1280
+cam_height: 720
+cam_fx:     902.4767772112169
+cam_fy:     901.8003357669888
+cam_cx:     637.5716836190486
+cam_cy:     363.21127188185824
+
+
+# cam_width:  752
+# cam_height: 480
+# cam_fx:     258.654
+# cam_fy:     257.296
+# cam_cx:     367.215
+# cam_cy:     248.375
