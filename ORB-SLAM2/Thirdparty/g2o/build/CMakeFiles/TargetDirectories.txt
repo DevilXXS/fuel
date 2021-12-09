@@ -1,0 +1,3 @@
+/home/xinhr/ORB_cloud/src/ORB-SLAM2/Thirdparty/g2o/build/CMakeFiles/rebuild_cache.dir
+/home/xinhr/ORB_cloud/src/ORB-SLAM2/Thirdparty/g2o/build/CMakeFiles/g2o.dir
+/home/xinhr/ORB_cloud/src/ORB-SLAM2/Thirdparty/g2o/build/CMakeFiles/edit_cache.dir
