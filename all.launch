@@ -1,0 +1,13 @@
+<launch>
+ <arg name="arg1" value="/home/xinhr/ORB_cloud/src/ORB-SLAM2/Vocabulary/ORBvoc.txt"/>
+ <arg name="arg2" value="/home/xinhr/ORB_cloud/src/ORB-SLAM2/Examples/ROS/ORB_cloud/Asus.yaml"/>
+
+ <include file="$(find realsense2_camera)/launch/rs_rgbd.launch" />
+
+ <include file="$(find plan_manage)/launch/kino_replan.launch" />
+ <include file="$(find plan_manage)/launch/rviz.launch" />
+	
+
+ <node name="ORB_cloud" pkg="ORB_cloud" type="RGBD" args="$(arg arg1) $(arg arg2)" launch-prefix="gnome-terminal -x"/>
+ 
+</launch>
